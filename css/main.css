@@ -15,3 +15,19 @@ body {
   border-color: #97a49b;
   color: #fff;
 }
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    position: relative;
+  }
+
+  section {
+    position: absolute;
+    top: 250px;
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
+}
