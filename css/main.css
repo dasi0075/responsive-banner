@@ -18,6 +18,10 @@ body {
 
 @media only screen and (min-width: 60em) {
 
+  body {
+    background-color: #fff;
+  }
+
   img {
     position: relative;
   }
@@ -25,6 +29,7 @@ body {
   section {
     position: absolute;
     top: 250px;
+    background-image: linear-gradient(rgba 73, 85, 98, 0.9);
   }
 
   .btn-ghost {
