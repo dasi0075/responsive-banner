@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia;
+  font-family: 'Georgia';
   color: #fff;
 }
 
@@ -29,7 +29,6 @@ body {
   section {
     position: absolute;
     top: 250px;
-    background-image: linear-gradient(rgba 73, 85, 98, 0.9);
   }
 
   .btn-ghost {
