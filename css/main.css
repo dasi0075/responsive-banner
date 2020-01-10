@@ -49,6 +49,10 @@ header {
     background-image: linear-gradient(to top, rgba(73, 85, 98, .6), rgba(73, 85, 98, 0));
   }
 
+  .banner-img {
+    position: relative;
+  }
+
   .btn-ghost {
     border-color: #fff;
   }
