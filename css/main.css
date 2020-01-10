@@ -44,7 +44,7 @@ header {
 
   .banner-content {
     position: absolute;
-    bottom: 0;
+    bottom: 400px;
     width: 100%;
     background-image: linear-gradient(to top, rgba(73, 85, 98, .6), rgba(73, 85, 98, 0));
   }
