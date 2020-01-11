@@ -16,6 +16,10 @@ header {
   background-color: #495562;
 }
 
+.banner-content {
+  background-color: #495562;
+}
+
 .banner-img {
   max-height: 500px;
   overflow: hidden;
@@ -42,15 +46,19 @@ header {
 
 @media only screen and (min-width: 60em) {
 
+  body {
+  background-color: #fff;
+  }
+
   .banner-img {
     position: relative;
   }
 
   .banner-content {
     position: absolute;
+    background-color: transparent;
     bottom: 400px;
     width: 100%;
-    background-color: transparent;
     background-image: linear-gradient(to top, rgba(73, 85, 98, .6), rgba(73, 85, 98, 0));
   }
 
